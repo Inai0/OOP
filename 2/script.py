@@ -1,13 +1,16 @@
-list1 =['one','two','three']
-list1.append('four')
-del list1[-1]
-if 'ten' not in list1:
-    print ('ten is not in list1')
-list1.sort()
-list1.remove('three')
-print (list1.reverse())
-print (list1.count('ONE'))
-print (len(list1))
-list1[0]='1'
-list1[0]= int(list1[0])
-print (list1)
+new_string= "Hello World"
+new_float=7.0
+new_int=7
+print (type(new_float))
+new_int=None
+print (type(new_int))
+print(repr(new_string))
+new_dicrionary={'key1':'value1','key2':'value2'}
+new_set=set((1,2,3))
+new_set.add(4)
+print(new_set)
+new_bytes=bytes()
+new_bool=False
+new_list='1234'
+print (type(int(new_list)))
+
